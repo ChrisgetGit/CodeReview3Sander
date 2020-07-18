@@ -1,8 +1,6 @@
 package CityBike;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Station {
