@@ -8,7 +8,7 @@ public class Rent {
     private long rentEnd;
     private long rentTime;
 
-    public Rent (long renttime){
+    public Rent (long rentTime){
         this.rentStart = rentStart;
         this.rentEnd = rentEnd;
     }

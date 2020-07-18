@@ -13,7 +13,7 @@ public class User {
     private String name;
     private String surname;
     private int currentlyRentedBike;
-    long rentedTime;
+
 
 
     User(String name, String surname){
@@ -113,31 +113,3 @@ public class User {
 
 }
 
-
-/*
- (5) Create a User class with properties:
-
-        userID
-
-        name
-
-        surname
-
-        currentlyRentedBike: Decide what’s best to use here.
-
-        Create 4 users.
-
-        (30) demonstrate the rental procedure:
-
-        UserZ rents bikeX from stationY1.
-
-        BikeX is removed from the data of that Station, and is connected to userZ.
-
-        UserZ returns a bike to stationY2
-
-        Find a way to solve this problem.
-
-
-
-        (15) Assure that a Station has a upper limit of bikes, that can be returned (for instance, max 5 bikes). If someone wants to call the method addBike(...), and the station is full, report that to the user over System.out.println() and prevent adding the bike.
-        */

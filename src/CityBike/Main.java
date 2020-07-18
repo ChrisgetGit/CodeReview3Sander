@@ -74,11 +74,5 @@ public class Main {
         station2.stationedBikes();
         station3.stationedBikes();
 
-        LocalTime myObj = LocalTime.now();
-        System.out.println(myObj);
-
-
-// import the LocalTime class
-
     }
 }
