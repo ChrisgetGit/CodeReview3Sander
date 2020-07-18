@@ -1,7 +1,5 @@
 package CityBike;
 
-import java.util.HashMap;
-
 public class Bike {
 
     private int bikeID;
